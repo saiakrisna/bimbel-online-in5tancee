@@ -173,7 +173,7 @@ global styles
 */
 html,
 body {
-  background: #fff;
+  background-color: #efd510 !important;
   font-family: "Roboto", sans-serif;
 }
 
@@ -1051,7 +1051,7 @@ footer .social li {
 footer .social li a {
   color: #fff;
   text-align: center;
-  background-color: #00b4c6;
+  background-color: #ea5455;
   width: 40px;
   height: 40px;
   line-height: 40px;
@@ -1065,7 +1065,7 @@ footer .social li a {
 }
 
 footer .social li a:hover {
-  background-color: #0088e8;
+  background-color: #efd510;
   color: #fff;
 }
 
