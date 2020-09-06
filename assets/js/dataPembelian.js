@@ -28,7 +28,7 @@ const getDataPembelian = async () =>{
                         '</ul>'+
                     '</div>'+
                     '<div class="pricing-footer">'+
-                        '<a href="#" class="main-button">Beli Paket Belajar</a>'+
+                        '<a href="pembayaran.html" class="main-button">Beli Paket Belajar</a>'+
                     '</div>'+
                 '</div>'
                 document.getElementById('showPrice').appendChild(div)
