@@ -35,9 +35,18 @@ const getDataPembelian = async () =>{
 
                 let purchaseButton = document.getElementsByClassName('main-button')[index];
                 purchaseButton.addEventListener('click', function() {
-                    console.log(index, getData.packageName)
+                    // console.log(index, getData.packageName)
 
-                    fetch()
+                    fetch(`https://5f53a146e5de110016d51a8f.mockapi.io/dataPembelian`)
+                    .then((response) => response.json())
+                    .then((result) =>{
+                        let dataPaket = result.filter((data) => data.packageName === (index, getData.packageName))
+                        // console.log("ini data price", price)
+                        if(dataPaket.length > 0){
+                            localStorage.setItem("dataPaket", JSON.stringify(dataPaket[0]));
+                            window.location.replace("/pembayaran.html")
+                        }
+                    })
                 });
                 // console.log(purchaseButton);
         });
