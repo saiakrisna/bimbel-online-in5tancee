@@ -35,6 +35,10 @@
     <!-- ***** Navbar Start ***** -->
     <nav class="navbar navbar-dark bg-dark">
         <a class="navbar-brand" href="pembelian.html"><i><img src="/assets/images/icons8-left-32.png" alt=""></i> Kembali</a>
+        
+        <button type="button" class="btn user" data-container="body" data-toggle="popover" data-placement="left" title="Nama User" data-content="namauser@gmail.com"><i><img src="/assets/images/icons8-user-30.png" alt=""></i>
+        </button>
+        <!-- <a class="navbar-brand user" href="pembelian.html"><i><img src="/assets/images/icons8-user-30.png" alt=""></i></a> -->
     </nav>
     <!-- ***** Navbar End ***** -->
 
@@ -114,6 +118,7 @@
         </div>
     </footer>
     
+    
     <!-- jQuery -->
     <script src="assets/js/jquery-2.1.0.min.js"></script>
 
@@ -131,6 +136,13 @@
     <!-- Global Init -->
     <script src="assets/js/custom.js"></script>
     <script src="assets/js/checkOutPembayaran.js"></script>
+
+    <!-- popover -->
+    <script>
+        $(function () {
+               $('[data-toggle="popover"]').popover()
+           })
+       </script>
 
   </body>
 </html>

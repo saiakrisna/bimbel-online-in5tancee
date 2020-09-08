@@ -215,6 +215,19 @@ nav.bg-dark{
     height: 65px !important;
 }
 
+button.user{
+    width: 40px !important;
+    padding-left: 4px;
+    padding-bottom: 8px;
+    border-radius: 50% !important;
+    background-color: #2d4059 !important;
+    border: none;
+}
+
+nav a.user:hover{
+    background-color: #425e81;
+}
+
 /* 
 ---------------------------------------------
 payment

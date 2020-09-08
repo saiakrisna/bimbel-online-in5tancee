@@ -234,7 +234,7 @@ body {
 
 .center-text p {
   font-size: 15px;
-  color: #fff;
+  color: #000;
   margin-bottom: 30px;
 }
 
@@ -962,7 +962,7 @@ pricing
   color: #1e1e1e;
   width: 180px;
   height: 40px;
-  line-height: 40px;
+  line-height: 20px;
   left: 0px;
   right: 0px;
   margin: auto;
