@@ -1051,114 +1051,157 @@ TRY IT ... with or without CENTER CENTER
   }
 }
 
-.pricing-item {
-    background: #FFFFFF;
-    box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.1);
-    border-radius: 20px;
-    margin-bottom: 30px;
-    margin-top: 20px;
-    padding: 30px 0px 40px 0px;
-  }
+.welcome-sign{
+  margin: 2em auto 2em auto;
+  text-align: center;
+  letter-spacing: 0.25px
+}
+
+.columns .is-desktop {
+  padding: 6em;
+}
+
+.column-paket{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contoh-pricelist{
+  padding: 30px;
+  margin: 10px;
+  width: 250px;
+  height: 375px;
+  background-color: #f2f2f2;
+  border-radius: 10%;
+}
+
+.nama{
+  text-align: center;
+  letter-spacing: 0.25px;
+}
+
+.harga{
+  height: 47px;
+  font-weight: 500;
+  font-size: 24px;
+  color: #000000;
+  position: relative;
+  top: -1px;
+  text-align: center;
+}
+
+.detail{
+  text-align: center;
+  margin-bottom: 12px;
+  font-weight: 400;
+  font-size: 13px;
+  color: #000000;
+  letter-spacing: 0.25px;
+}
+
+.buy{
+  text-align: center;
+}
   
-  .pricing-item.active .pricing-header {
-    position: relative;
-  }
-  
-  .pricing-item.active .pricing-header .pricing-title {
-    color: #1e1e1e;
-  }
-  
-  .pricing-item.active .pricing-body .price-wrapper {
-    background-color: #2d4059;
-  }
-  
-  .pricing-item.active .pricing-body .price-wrapper .currency {
-    color: #fff;
-  }
-  
-  .pricing-item.active .pricing-body .price-wrapper .price {
-    color: #fff;
-  }
-  
-  .pricing-item.active .pricing-body .price-wrapper .period {
-    color: #fff;
-  }
-  
-  .pricing-item .pricing-header {
+.bandingkan{
+  text-align: end;
+  margin-right: 2.5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.why{
+  margin: 2em auto 2em auto;
+  text-align: center;
+  letter-spacing: 0.25px
+}
+
+.gambar{
+  width: 300px;
+  height: 300px;
+}
+
+.img{
+  align-items: center;
+}
+
+.column-why{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.why-in5tancee{
+  padding: 30px;
+  margin: 10px;
+  width: 500px;
+  height: 600px;
+  background-color: #f2f2f2;
+  border-radius: 10%;
+}
+
+@media(max-width: 539px){
+  .bandingkan{
     text-align: center;
-    display: block;
-    position: relative;
-    padding-bottom: 10px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+}
+
+  footer {
+    background-color: #2d4059;
+    padding: 60px 0px;
+    color: #fff;
   }
   
-  .pricing-item .pricing-header .pricing-title {
-    font-weight: 500;
-    font-size: 17px;
-    letter-spacing: 0.25px;
-    color: #1e1e1e;
-    width: 180px;
+  footer .social {
+    overflow: hidden;
+    text-align: right;
+  }
+  
+  footer .social li {
+    margin: 0px 5px;
+    display: inline-block;
+  }
+  
+  footer .social li a {
+    color: #fff;
+    text-align: center;
+    background-color: #ea5455;
+    width: 40px;
     height: 40px;
     line-height: 40px;
-    left: 0px;
-    right: 0px;
-    margin: auto;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 16px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
   }
   
-  .pricing-item .pricing-body {
-    margin-bottom: 40px;
-  }
-  
-  .pricing-item .pricing-body .price-wrapper {
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 13px;
-    background: #2d4059;
-    width: 80%;
-    margin: auto;
-    margin-bottom: 40px;
-    margin-top: 5px;
-    border-radius: 20px;
-  }
-  
-  .pricing-item .pricing-body .price-wrapper .currency {
-    height: 47px;
-    font-weight: 500;
-    font-size: 32px;
-    color: #fff;
-    position: relative;
-    top: -1px;
-  }
-  
-  .pricing-item .pricing-body .price-wrapper .price {
-    font-weight: 500;
-    font-size: 28px;
+  footer .social li a:hover {
+    background-color: #efd510;
     color: #fff;
   }
   
-  .pricing-item .pricing-body .price-wrapper .period {
+  footer .copyright {
+    margin-top: 10px;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 15px;
     color: #fff;
-    display: block;
     letter-spacing: 0.88px;
+    text-transform: capitalize;
   }
   
-  .pricing-item .pricing-body .detail {
-    text-align: center;
-    margin-bottom: 12px;
-    font-weight: 400;
-    font-size: 13px;
-    color: #7a7a7a;
-    letter-spacing: 0.25px;
-  }
-  
-  .pricing-item .pricing-body .detail-paket {
-    color: #7a7a7a;
-    text-decoration: none;
-  }
-  
-  .pricing-item .pricing-footer {
-    text-align: center;
-    margin-top: 50px;
+  @media (max-width: 991px) {
+    footer .copyright {
+      text-align: center;
+    }
+    footer .social {
+      text-align: center;
+      margin-top: 15px;
+    }
   }
   
